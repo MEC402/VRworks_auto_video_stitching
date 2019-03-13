@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rig coord_axes="y-up" >
+	<camera width="1440" height="2560">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="origin_0.mp4" fps_num="100" fps_den="3" width="1440" height="2560"/>
+		</input_media_feed>
+	</camera>
+	<camera width="1440" height="2560">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="origin_1.mp4" fps_num="100" fps_den="3" width="1440" height="2560"/>
+		</input_media_feed>
+	</camera>
+	<camera width="1440" height="2560">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="origin_2.mp4" fps_num="100" fps_den="3" width="1440" height="2560"/>
+		</input_media_feed>
+	</camera>
+	<camera width="1440" height="2560">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="origin_3.mp4" fps_num="100" fps_den="3" width="1440" height="2560"/>
+		</input_media_feed>
+	</camera>
+	<camera width="1440" height="2560">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="origin_4.mp4" fps_num="100" fps_den="3" width="1440" height="2560"/>
+		</input_media_feed>
+	</camera>
+	<camera width="1440" height="2560">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="origin_5.mp4" fps_num="100" fps_den="3" width="1440" height="2560"/>
+		</input_media_feed>
+	</camera>
+</rig>
+
