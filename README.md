@@ -1,9 +1,16 @@
 # Automatic VRworks video stitching
-[Testing](#Testing)
+
 
 ---
 
 # Requeriments
+
+## Insta360 camera footage
+Login into *R2* and copy the content of the **instructions footage** (*/scratch/ilopez/vr_works_instructions_footage/*) directory into your preferred location in the cluster by using the following command:
+
+```
+cp /scratch/ilopez/vr_works_instructions_footage/ {preferred_directory_path}
+```
 
 ## R2 modules
 There are some required modules that are already installed in *R2*:
@@ -63,7 +70,6 @@ the video directories are listed (directory path) using the following format:
         ...
 </data>
 ```
-
 ***Tip:*** I use to create the video directory into the *R2* **scratch** because there is
 plenty of disk space to store them.
 
@@ -105,7 +111,7 @@ videos/
 Before stitching the video, it is recommended to calibrate the camera sensors in
 order to align the videos and reduce stitching errors (seams) in the final video.
 This step, randomly extracts video frames and stores them as images in
-a new directory (*path_to_video/calib_frames/*) next to the sensor's videos for.
+a new directory (*path_to_video/calib_frames/*) next to the sensors' videos.
 
 To generate the calibration frames use the following command:
 
@@ -184,8 +190,3 @@ videos/
 +-- insta360_video_input.xml
 +-- insta360_stitcher_spec.xml
 ```
-
-
----
-
-# Testing
