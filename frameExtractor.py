@@ -14,7 +14,7 @@ n_frames = 10
 input_xml = sys.argv[1]
 video_dir = sys.argv[2]
 
-tree = ET.parse(input_xml)m
+tree = ET.parse(input_xml)
 root = tree.getroot()
 
 """
