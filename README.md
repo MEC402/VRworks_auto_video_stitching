@@ -109,10 +109,10 @@ videos/
 (*Skip this section if the Insta360 camera footage is used.*)
 
 Camera rig specifications determines how the camera sensors are arranged in the capturing device.
-*Size*, *orientation*, *location*, and intrinsic parameters are stored in the *precalibration_specs.xml* file.
-This file is an estimation of how the camera is arranged, it is required for the calibration step where *VRworks* will create a new file in order to optimize the stitching.
+*Size*, *orientation*, *location*, and intrinsic parameters are stored in the *insta360_calib_rig_specs.xml* file.
+This file is an estimation of how the camera is arranged, it is required for the calibration step where *VRworks* will create a new file, named *precalibration_specs.xml" in order to optimize the stitching.
 
-Each sensor has the following structure for storing the parameters in the *precalibration_specs.xml*:
+Each sensor has the following structure for storing the parameters in the *insta360_calib_rig_specs.xml*:
 ```xml
 <camera height="1440" layout="equatorial" width="2560">
 		<pose>
