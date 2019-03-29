@@ -86,7 +86,7 @@ plenty of disk space to store them.
 Before running the automatic stitching, check that you have the following files
 located and copy them into the **video list** directory:
 
-* **precalibration_specs.xml:** Camera rig extrinsic and intrinsic parameter estimation.
+* **insta360_calib_rig_specs.xml:** Camera rig extrinsic and intrinsic parameter estimation.
 * **insta360_video_input.xml:**     List of path to videos to process.
 * **insta360_stitcher_spec.xml:**   Stitcher parameters for VRworks.
 
