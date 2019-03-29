@@ -86,7 +86,7 @@ plenty of disk space to store them.
 Before running the automatic stitching, check that you have the following files
 located and copy them into the **video list** directory:
 
-* **insta360_calib_rig_specs.xml:** Camera rig extrinsic and intrinsic parameter estimation.
+* **insta360_rig_specs.xml:** Camera rig extrinsic and intrinsic parameter estimation.
 * **insta360_video_input.xml:**     List of path to videos to process.
 * **insta360_stitcher_spec.xml:**   Stitcher parameters for VRworks.
 
@@ -109,10 +109,10 @@ videos/
 (*Skip this section if the Insta360 camera footage is used.*)
 
 Camera rig specifications determines how the camera sensors are arranged in the capturing device.
-*Size*, *orientation*, *location*, and intrinsic parameters are stored in the *insta360_calib_rig_specs.xml* file.
+*Size*, *orientation*, *location*, and intrinsic parameters are stored in the *insta360_rig_specs.xml* file.
 This file is an estimation of how the camera is arranged, it is required for the calibration step where *VRworks* will create a new file, named *precalibration_specs.xml" in order to optimize the stitching.
 
-Each sensor has the following structure for storing the parameters in the *insta360_calib_rig_specs.xml*:
+Each sensor has the following structure for storing the parameters in the *insta360_rig_specs.xml*:
 ```xml
 <camera height="1440" layout="equatorial" width="2560">
 		<pose>
